@@ -1,0 +1,25 @@
+{
+  "name": "english anime list",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "shows english titles on myanimelist.net/animelist",
+  "content_scripts": [
+    {
+      "matches": ["http://myanimelist.net/animelist/*"],
+      "js": [
+        "js/jquery-2.1.1.min.js",
+        "js/inject.js"
+      ]
+    }
+  ]/*,
+  "permissions": [
+    "notifications","tabs","storage","http://www.plug.dj/*","http://www.plug.dj/","http://plug.dj/*","http://127.0.0.1/*"
+  ],
+  "web_accessible_resources": [
+  	"js/plugPMs.js",
+    "pms.html",
+    "js/jquery-ui-1.9.1.custom.js",
+    "js/windows.js",
+    "images/example.png"
+  ]*/
+}
